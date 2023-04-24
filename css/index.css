@@ -1,0 +1,63 @@
+body {
+  background-color: #f7f7f7;
+}
+
+/* Style the text container */
+#text-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#text-container p {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style the video */
+#video {
+  width: 100%;
+  height: 500px;
+  background-color: #eee;
+}
+
+#video iframe {
+  display:block;
+  width:100%;
+}
+
+/* Style the display container */
+#display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#display img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#display img:hover {
+  transform: scale(1.1);
+}
+
+#display h3 {
+  font-size: 20px;
+  margin-top: 5px;
+  color: #333;
+}
+
+#display p {
+  margin-top: 5px;
+  color: #888;
+  font-size: 14px;
+}
+
+#display a {
+  color: #333;
+}

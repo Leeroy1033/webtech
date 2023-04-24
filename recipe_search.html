@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/recipe_search.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>
+        Leeroy's Recipe Bazaar
+    </title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+
+                <li class="dropdown-toggle"><a href="recipe_search.html">Recipes</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="recipe_gen.html">Recipe Generator</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="dropdown-toggle"><a href="safety.html">Cooking Safety</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="kitchen_safety.html">Kitchen Safety</a></li>
+                            <li><a href="food_safety.html">Food Safety</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+
+            <ul id="user-links">
+
+                <li class="dropdown-toggle"><a href="login.html">User Zone</a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="favourites.html">Favourites</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="placeholder.html">Visitor Wall</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="text-container">
+        <p>Recipe Collection</p>
+    </div>
+
+    <div id="recipeSearch" style="height:1000px;">
+
+        <input type="text" id="recipeSearchInput">
+        <button class="btn submit" id="recipeSearchSubmit">
+            Search
+        </button>
+
+        <div id="recipes-container"></div>
+        <button id="jumpButton" title="Go to top">&#10148;</button>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    
+
+    <footer>
+        <p>You are here: <a href="#" id="page-id"></a></p>
+    </footer>
+
+    <script src="js/recipe_search.js"></script>
+    <script src="js/infinitescroll.js"></script>
+    <script src="js/footer_id.js"></script>
+    <script src="js/jumpbutton.js"></script>
+
+</body>
+
+</html>

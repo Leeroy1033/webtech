@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Authentication</title>
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav id="navbar">
+                <ul id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+    
+                    <li class="dropdown-toggle"><a href="recipe_search.html">Recipes</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="recipe_gen.html">Recipe Generator</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="dropdown-toggle"><a href="safety.html">Cooking Safety</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="kitchen_safety.html">Kitchen Safety</a></li>
+                                <li><a href="food_safety.html">Food Safety</a></li>
+                            </ul>
+                        </div>
+                    </li>
+    
+                </ul>
+    
+                <ul id="user-links">
+                    <li class="dropdown-toggle"><a href="login.html">User Zone</a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="favourites.html">Favourites</a></li>
+                            </ul>
+                        </div>
+                    <li><a href="placeholder.html">Visitor Wall</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="signup-box">
+            <div class="left">
+                <h1>Sign Up</h1>
+
+                <input type="text" id="username" name="username" placeholder="Username" />
+                <input type="text" id="email" name="email" placeholder="E-mail" />
+                <input type="password" id="password" name="password" placeholder="Password" />
+
+                <input type="submit" id="signUp" name="signup_submit" value="Sign Up" />
+            </div>
+
+        <div id="login-box">
+            <div class="under">
+                <h1>Log in</h1>
+
+                <input type="text" id="username" name="username" placeholder="Username" />
+                <input type="password" id="password" name="password" placeholder="Password" />
+
+                <input type="submit" id="login" name="login_submit" value="Login" />
+                <input type="button" id="logout" name="logout_button" value="Logout" />
+            </div>
+    </div>
+
+    <footer>
+        <p>You are here: <a href="#" id="page-id"></a></p>
+    </footer>
+    </body>
+
+
+    <script type="module" src="js/auth.js"></script>
+	<script src="js/footer_id.js"></script>
+    
+</html>

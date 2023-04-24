@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    border: 1px solid black;
+    margin:0 auto;
+    display:block; 
+
+  }
+  
+  #controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 5px 10px;
+  }
+
+  #text-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #text-container p {
+    font-size: 24px;
+    color: #333;
+  }

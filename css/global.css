@@ -1,0 +1,15 @@
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}
+.btn.btn-yellow{
+    background-color: #f9ca24;
+    color:#000;
+}
+
+.btn.btn-red{
+    background-color: #e84118;
+    color:#fff;
+}
