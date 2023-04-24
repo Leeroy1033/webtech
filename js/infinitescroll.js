@@ -29,7 +29,7 @@ function displayRandomMeal() {
               <div class="recipe-details">
                 <div class="meal-name">${output[i].strMeal}</div>
                 <div class="meal-category">Category: ${output[i].strCategory}</div>
-                <button class="btn btn-yellow favorites" data-recipe-id="${output[i].idMeal}">Favorite</button>
+                <button class="btn btn-yellow favourites" data-recipe-id="${output[i].idMeal}">Favourite</button>
               </div>
             </div>`;
             
