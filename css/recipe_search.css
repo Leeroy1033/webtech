@@ -73,7 +73,7 @@
   background-color: #f44336;
   color: white;
   cursor: pointer;
-  transform: rotate(90deg);
+  transform: rotate(45deg);
   padding: 15px;
   border-radius: 4px;
 }
